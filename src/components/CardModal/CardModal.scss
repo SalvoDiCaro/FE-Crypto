@@ -1,0 +1,21 @@
+.invest {
+  box-shadow: #dd6a1f 0px 0px 20px 10px;
+  animation: mymove infinite 2s;
+}
+
+@keyframes mymove {
+  from {
+    box-shadow: #dd6a1f 0px 0px 20px 10px;
+  }
+  50% {
+    box-shadow: #dd6a1f 0px 0px 20px 0px;
+  }
+  to {
+    box-shadow: #dd6a1f 0px 0px 20px 10px;
+  }
+}
+
+.details-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

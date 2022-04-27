@@ -1,0 +1,19 @@
+.container__cards__favourites {
+  margin: 10px;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+  z-index: 100;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 1rem;
+  max-width: 340px;
+}
